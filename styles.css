@@ -58,18 +58,23 @@ button:hover {
     padding: 10px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     border-radius: 5px;
     border-left: 5px solid #28a745;
 }
-
-li.completed {
-    text-decoration: line-through;
-    opacity: 0.6;
-    border-left-color: #ccc;
+#completebtn{
+    background-color: #0453f0;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#completebtn:hover {
+    background-color: #1e43d9;
 }
 
-.delete-btn {
+#delebtn {
     background-color: #dc3545;
     color: white;
     border: none;
@@ -78,6 +83,6 @@ li.completed {
     cursor: pointer;
 }
 
-.delete-btn:hover {
+#delebtn:hover {
     background-color: #c82333;
 }
